@@ -37,4 +37,4 @@ def predict():
     return render_template('index.html', prediction_text='Patient has {}'.format(res_val))
 
 if __name__ == "__main__":
-    app.run(threaded=True, port=5000)
+    app.run(threaded=True, port=1999)
